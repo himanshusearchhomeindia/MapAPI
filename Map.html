@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple Map</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+    <!-- The below javascript is used to fetch the user location -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- The below javascript is used to access the google map api. -->
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgXXPDImZ11RC-0LUhdr0K-no_zBquL6w&callback=initMap&libraries=&v=weekly"
+        defer></script>
+    <!-- The below css is used to style the map. -->
+    <link rel="stylesheet" type="text/css" href="Map.css" />
+    <!-- The below javascript is a custom js used to run the api requests -->
+    <script src="Map.js"></script>
+</head>
+
+<body>
+    <!-- Here the map will appear -->
+    <div id="map"></div>
+</body>
+
+</html>
+
